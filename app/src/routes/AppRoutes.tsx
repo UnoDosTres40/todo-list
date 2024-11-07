@@ -6,7 +6,7 @@ export const AppRoutes = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<MainLayout />}>
-				<Route index element={<NoteListPage />} />
+				<Route path='note-list' element={<NoteListPage />} />
 				<Route path="create-note" element={<CreateNotePage />} />
 			</Route>
 		</Routes>
